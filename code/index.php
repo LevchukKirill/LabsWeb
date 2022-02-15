@@ -1,0 +1,2 @@
+<7php
+echo phpinfo();

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 3 (2_c)</title>
+</head>
+
+<body>
+<form action="2c.php" method="POST">
+    Name<br> <input type="text" name="Name" required><br><br>
+    Surname<br> <input type="text" name="Surname" required><br><br>
+    Age<br> <input type="number" name="Age" min=0 required><br><br>
+    Salary<br>
+    <input name="Salary" type="number" min="0" required><br>
+    <br>
+    Sex:
+    <select name ="Sex" required>
+        <option value="Man"> Man</option>
+        <option value="Women"> Women</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Add">
+</form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "LevchukKirill/LabsWeb",
+  "authors": [
+    {
+      "name": "LevchukKirill",
+      "email": "kirya.levch@mail.ru"
+    }
+  ],
+  "require": {
+    "google/apiclient": "2.0",
+    "guzzlehttp/guzzle": "~5.3.1"
+  }
+}
